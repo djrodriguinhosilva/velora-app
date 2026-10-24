@@ -41,7 +41,9 @@ export function Footer() {
       <p className="text-xs text-[var(--muted)]">
         © {new Date().getFullYear()} Velora. Big Buck Bunny, Sintel, Tears of Steel e Elephants Dream pertencem
         à Blender Foundation e são exibidos sob Creative Commons Attribution.
-      </p>
+      <p className="mt-2 text-xs text-[var(--muted)]">
+  Contato: djrodriguinhosilva@hotmail.com
+</p>
     </footer>
   );
 }
