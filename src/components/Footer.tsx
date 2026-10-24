@@ -44,7 +44,6 @@ export function Footer() {
 <p className="mt-2 text-sm text-[var(--muted)]">
   Contato: djrodriguinhosilva@hotmail.com
 </p>
-      </p>
     </footer>
   );
 }
