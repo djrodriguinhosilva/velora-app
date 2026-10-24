@@ -45,5 +45,5 @@ export function Footer() {
   © {new Date().getFullYear()} Velora. Big Buck Bunny, Sintel... à Blender Foundation e são exibidos sob Creative Commons Attribution.
 </p>
 <p className="mt-2 text-xs text-[var(--muted)]">
-  Contato: dj.rodriguinhosilva@hotmail.com
+  Contato: djrodriguinhosilva@hotmail.com
 </p>
