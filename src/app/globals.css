@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #07070b;
+  --bg-elev: #101018;
+  --bg-card: #16161f;
+  --line: rgba(255, 244, 220, 0.08);
+  --text: #f6f1e8;
+  --muted: #b7b0a4;
+  --accent: #e8b86d;
+  --accent-2: #f4d7a1;
+  --danger: #ff6b6b;
+  --shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+html[data-contrast="high"] {
+  --line: rgba(255, 244, 220, 0.22);
+  --muted: #ddd6c8;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background:
+    radial-gradient(1200px 500px at 10% -10%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 50%),
+    radial-gradient(900px 400px at 100% 0%, rgba(80, 50, 20, 0.25), transparent 45%),
+    var(--bg);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--accent) 50%, #333) transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.hide-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.poster-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.poster-card:hover,
+.poster-card:focus-within {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+}
+
+.gold-line {
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  height: 1px;
+}
+
+.rating-chip {
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, white);
+  color: var(--accent-2);
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.hero-mask {
+  background:
+    linear-gradient(90deg, rgba(7, 7, 11, 0.92) 0%, rgba(7, 7, 11, 0.55) 42%, rgba(7, 7, 11, 0.15) 70%, transparent 100%),
+    linear-gradient(0deg, #07070b 0%, rgba(7, 7, 11, 0.15) 42%, transparent 70%);
+}
+
+.panel {
+  background: color-mix(in srgb, var(--bg-elev) 88%, black);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.accent-btn {
+  background: linear-gradient(180deg, var(--accent-2), var(--accent));
+  color: #1a140b;
+  font-weight: 700;
+}
+
+.ghost-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--line);
+}
+
+input[type="range"] {
+  accent-color: var(--accent);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 70%, black);
+  color: #1a140b;
+}
