@@ -39,9 +39,9 @@ export function Footer() {
       </div>
       <div className="gold-line my-8" />
 <p className="mt-2 text-xs text-[var(--muted)]">
-  Contato: djrodriguinhosilva@hotmail.com
-</p>
-<p className="text-xs text-[var(--muted)]">
+        Contato: djrodriguinhosilva@hotmail.com
+      </p>
+      <p className="text-xs text-[var(--muted)]">
         © {new Date().getFullYear()} Velora. Big Buck Bunny, Sintel, Tears of Steel e Elephants Dream são licenciados sob a Creative Commons Attribution.
       </p>
     </footer>
