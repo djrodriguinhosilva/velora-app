@@ -41,8 +41,8 @@ public/subtitles/      # VTT de demonstração
 
 | Conta | Senha | Papel |
 | --- | --- | --- |
-| walt.e@example.net | demo123 | usuário (perfis Ana e Kids) |
-| emma.t@example.net | velora123 | administrador |
+| djrodriguinhosilva@hotmail.com | demo123 | usuário (perfis Ana e Kids) |
+| djrodriguinhosilva@hotmail.com | velora123 | administrador |
 
 ## Como executar
 
@@ -63,5 +63,5 @@ Gerar um APK Kotlin/Compose está fora desta stack. O caminho natural seria um c
 1. Abrir `/` e navegar pelos carrosséis.
 2. Buscar “órbita”, filtrar por ano e abrir a ficha.
 3. Reproduzir, pausar, alterar volume/brilho, avançar 10s e recarregar a página (retomada).
-4. Entrar como `walt.e@example.net`, favoritar um título e conferir `/favoritos`.
+4. Entrar como `djrodriguinhosilva@hotmail.com`, favoritar um título e conferir `/favoritos`.
 5. Entrar como admin e criar/editar um título em `/admin/titulos`.
