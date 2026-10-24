@@ -41,8 +41,8 @@ public/subtitles/      # VTT de demonstração
 
 | Conta | Senha | Papel |
 | --- | --- | --- |
-| walt.e@example.net | demo123 | usuário (perfis Ana e Kids) |
-| emma.t@example.net | velora123 | administrador |
+| djrodriguinhosilva@hotmail.com | demo123 | usuário (perfis Ana e Kids) |
+| djrodriguinhosilva@hotmail.com | velora123 | administrador |
 
 ## Como executar
 
