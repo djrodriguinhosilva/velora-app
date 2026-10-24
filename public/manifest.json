@@ -1,0 +1,10 @@
+{
+  "name": "VELORA",
+  "short_name": "VELORA",
+  "description": "Cinema em qualquer tela.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07070b",
+  "theme_color": "#07070b",
+  "lang": "pt-BR"
+}
