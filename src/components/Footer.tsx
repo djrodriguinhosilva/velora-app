@@ -8,8 +8,7 @@ export function Footer() {
         <div>
           <Logo />
           <p className="mt-3 max-w-md text-sm text-[var(--muted)]">
-            Experiência cinematográfica original. Catálogo de demonstração com obras Creative Commons e
-            originais Velora. Sem DRM invertido, sem fontes não autorizadas.
+            Experiência cinematográfica original. Catálogo de demonstração com obras Criativas originais Velora. Sem DRM invertido, sem fontes não autorizadas.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 text-sm">
@@ -38,12 +37,12 @@ export function Footer() {
         </div>
       </div>
       <div className="gold-line my-8" />
-<p className="mt-2 text-xs text-[var(--muted)]">
-  © {new Date().getFullYear()} Velora. Big Buck Bunny, Sintel, Tears of Steel e Elephants Dream licenciados sob Creative Commons Attribution.
-</p>
-<p className="mt-2 text-sm text-[var(--muted)]">
-  Contato: djrodriguinhosilva@hotmail.com
-</p>
+      <p className="mt-2 text-xs text-[var(--muted)]">
+        © {new Date().getFullYear()} Velora. Big Buck Bunny, Sintel, Tears of Steel e Elephants Dream licenciados sob Creative Commons Attribution.
+      </p>
+      <p className="mt-2 text-sm text-[var(--muted)]">
+        Contato: djrodriguinhosilva@hotmail.com
+      </p>
     </footer>
   );
 }
